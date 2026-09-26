@@ -12,6 +12,24 @@ https://github.com/jimrandomh/g2flash.
 User-facing documentation lives at https://faceclaw.org/.
 
 
+## Modifications made
+
+* Adapted for Visual Studio Code on Windows
+* **Notifications with images:**
+
+  * Display of the image in a new window for 15 seconds (automatic closing)
+  * 5-second delay before displaying a new image to avoid BLE disconnections
+  * New notifications are blocked for 10 seconds to allow time to view the first image
+* **Added buzzer for notifications**
+* **Added notification filtering** in the settings for each application or system application:
+
+  * On/Off
+  * Associated buzzer sound
+  * Filtering based on notification text/title
+
+This customized version is provided as-is. No support is provided for this version or its modifications.
+
+
 ## Screenshots
 
 ![App launcher](website/screenshots/launcher.png)
