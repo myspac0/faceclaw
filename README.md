@@ -1,18 +1,4 @@
-# Faceclaw - An unofficial user interface for the Even Realities G2 smart glasses
-
-This is an unofficial user interface for the Even Realities G2 smart glasses.
-It is entirely unofficial, and comes with no support or warranty from Even
-Realities or from anyone.
-
-This app runs on Android, and requires installing custom firmware on the
-glasses. The Android app itself can install and uninstall the custom firmware;
-it downloads the stock firmware from Even and applies patches generated from
-https://github.com/jimrandomh/g2flash.
-
-User-facing documentation lives at https://faceclaw.org/.
-
-
-## Modifications made
+Modifications compared to the original Faceclaw repository
 
 * Adapted for Visual Studio Code on Windows
 * **Added notifications with images:**
@@ -26,8 +12,58 @@ User-facing documentation lives at https://faceclaw.org/.
   * On/Off
   * Associated buzzer sound
   * Filtering based on notification text/title
+  
+  
+### 15 files reintegrated
+
+```text
+package-lock.json
+package.json
+app\g2\dashboard-controller.ts
+app\native\notification-icons.ts
+app\phone-ui\main-page.xml
+app\phone-ui\main-view-model.ts
+app\ui\sound-effects.ts
+app\ui\shell\in-process-window.ts
+app\ui\shell\shell.ts
+App_Resources\Android\app.gradle
+App_Resources\Android\src\main\AndroidManifest.xml
+App_Resources\Android\src\main\java\com\faceclaw\app\FaceclawBleCommunicator.java
+App_Resources\Android\src\main\java\com\faceclaw\app\FaceclawMediaNotificationListenerService.java
+native\kotlin\shared\src\commonMain\kotlin\com\faceclaw\app\callbacks\FaceclawNotificationListener.kt
+scripts\kotlin-build.cjs
+```
+
+### 9 files added
+
+```text
+App_Resources\Android\src\main\res\layout\app_spinner_dropdown.xml
+hooks\before-checkForChanges\nativescript-core.mjs
+app\apps\files\image-viewer-refreshed.ts
+App_Resources\Android\src\main\res\layout\activity_app_selector.xml
+App_Resources\Android\src\main\java\com\faceclaw\app\AppSelectorActivity.java
+build_paths.sh
+App_Resources\Android\src\main\res\layout\app_spinner_item.xml
+App_Resources\Android\src\main\java\com\faceclaw\app\AppListAdapter.java
+App_Resources\Android\src\main\res\layout\item_app_switch.xml
+```
 
 This customized version is provided as-is. No support is provided for this version or its modifications.
+
+
+
+# Faceclaw - An unofficial user interface for the Even Realities G2 smart glasses
+
+This is an unofficial user interface for the Even Realities G2 smart glasses.
+It is entirely unofficial, and comes with no support or warranty from Even
+Realities or from anyone.
+
+This app runs on Android, and requires installing custom firmware on the
+glasses. The Android app itself can install and uninstall the custom firmware;
+it downloads the stock firmware from Even and applies patches generated from
+https://github.com/jimrandomh/g2flash.
+
+User-facing documentation lives at https://faceclaw.org/.
 
 
 ## Screenshots
