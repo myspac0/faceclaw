@@ -15,7 +15,7 @@ User-facing documentation lives at https://faceclaw.org/.
 ## Modifications made
 
 * Adapted for Visual Studio Code on Windows
-* **Notifications with images:**
+* **Added notifications with images:**
 
   * Display of the image in a new window for 15 seconds (automatic closing)
   * 5-second delay before displaying a new image to avoid BLE disconnections
