@@ -1,0 +1,16 @@
+// this configurations is loaded before building plugins, as well as before building
+// the app - this is where you can apply global settings and overrides
+
+project.ext {
+  // androidXAppCompat = "1.4.1"
+  // androidXExifInterface = "1.3.3"
+  // androidXFragment = "1.4.1"
+  // androidXMaterial = "1.5.0"
+  // androidXMultidex = "2.0.1"
+  // androidXTransition = "1.4.1"
+  // androidXViewPager = "1.0.0"
+
+  // NativeScript 9 already applies kotlin-android. Match the shared KMP compiler
+  // for our .kt sources; no separate Kotlin installation is required.
+  kotlinVersion = "2.4.20"
+}
