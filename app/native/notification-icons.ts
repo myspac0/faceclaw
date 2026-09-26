@@ -37,7 +37,7 @@ let notificationHasImage = false;
 let notificationsBlockedUntil = 0;
 const NOTIFICATION_BLOCK_MS = 10_000;
 let lastNotificationImageAt = 0;
-const NOTIFICATION_IMAGE_COOLDOWN_MS = 2_000;// une seule image toutes les 30secondes
+const NOTIFICATION_IMAGE_COOLDOWN_MS = 5_000;// une seule image toutes les 30secondes
 
 function invalidateIconCaches(): void {
   cachedAtMs = 0;
