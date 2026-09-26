@@ -364,7 +364,7 @@ function normalizeNotification(value: any): AndroidNotification | null {
       );
 
       // "Aucun" = notification affichée, mais aucun buzzer
-      if (beepName !== "Aucun") {
+      if (beepName !== "None") {
         const effect = findSoundEffect(beepName);
 
         if (effect) {

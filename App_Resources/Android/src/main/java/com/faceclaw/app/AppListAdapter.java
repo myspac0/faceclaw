@@ -34,7 +34,7 @@ public class AppListAdapter extends BaseAdapter {
     private static final String DEFAULT_BEEP = "myalarm";
 
     private static final String[] BEEP_NAMES = {
-            "Aucun",
+            "None",
             "coin",
             "powerup",
             "oneup",
